@@ -1,0 +1,12 @@
+# ---- 本地密钥与运行状态，绝对不要提交 ----
+secrets.env
+state.json
+settings.json
+switch.log
+backups/
+dryrun/
+
+# 临时文件
+*.dstmp
+tray.err.txt
+tray.out.txt

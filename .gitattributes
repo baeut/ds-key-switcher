@@ -1,0 +1,10 @@
+# Windows 端脚本保持 CRLF，避免别人 clone 后 PowerShell 解析异常
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# 文档用 LF
+*.md text eol=lf
+*.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
